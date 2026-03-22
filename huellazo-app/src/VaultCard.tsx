@@ -14,7 +14,7 @@ import {
   HUELLAZO_PROGRAM_ADDRESS, // Asegúrate de exportarlo desde tu index.ts generado
 } from "./generated/vault"; // Ajusta la ruta a tu carpeta generada
 
-const SYSTEM_PROGRAM_ADDRESS = "CB2sVYQ48i3rTdM51zKxipweoFpxEEmJVC1NgxLeT5Xj" as Address;
+const SYSTEM_PROGRAM_ADDRESS = "11111111111111111111111111111111" as Address;
 
 export function PassportCard() {
   const { wallet, status } = useWalletConnection();
