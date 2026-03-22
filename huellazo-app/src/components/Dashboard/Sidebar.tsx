@@ -45,7 +45,7 @@ export function Sidebar({ currentView, onViewChange }: SidebarProps) {
       {/* Información del Footer del Menú */}
       <div className="mt-auto hidden md:block pt-8 border-t-4 border-[#3D405B] border-dashed">
         <p className="text-xs text-center font-bold text-[#3D405B]/60 uppercase">
-          Devnet Solana<br/>© 2024 Huellazo
+          Mario Ramirez (p3p3p3k4z)<br/>© 2026 Huellazo
         </p>
       </div>
     </aside>

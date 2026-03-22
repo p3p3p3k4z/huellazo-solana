@@ -49,7 +49,7 @@ export function GameCanvas({ playerPosition, playerSize }: GameCanvasProps) {
         }}
       >
         <div className="w-full h-full bg-[#E07A5F] border-4 border-[#3D405B] rounded-full shadow-[4px_4px_0px_#3D405B] flex items-center justify-center overflow-hidden z-10">
-          <img src="/assets/player.png" alt="Player" className="w-[80%] h-[80%] object-contain" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+          <img src="/assets/player.png" alt="Player" className="w-[100%] h-[100%] object-contain" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
         </div>
         {/* Sombra debajo del jugador */}
         <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-3/4 h-2 bg-black/20 rounded-full w-full backdrop-blur-sm -z-10" />
