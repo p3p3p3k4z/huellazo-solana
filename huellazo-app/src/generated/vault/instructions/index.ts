@@ -6,5 +6,10 @@
  * @see https://github.com/codama-idl/codama
  */
 
-export * from "./deposit";
-export * from "./withdraw";
+export * from "./closePassport";
+export * from "./initializeConfig";
+export * from "./initializePassport";
+export * from "./recordVisit";
+export * from "./registerMerchant";
+export * from "./updateMerchant";
+export * from "./validateEcoAction";
