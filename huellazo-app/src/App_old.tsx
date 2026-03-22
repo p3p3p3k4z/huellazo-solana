@@ -1,5 +1,5 @@
 import { useWalletConnection } from "@solana/react-hooks";
-import { HuellazoDashboard } from "./components/HuellazoDashboard"; // Ajusta la ruta si es necesario
+import { HuellazoDashboard } from "./components/HuellazoDashboard_old"; // Ajusta la ruta si es necesario
 
 export default function App() {
   const { connectors, connect, disconnect, wallet, status } = useWalletConnection();
