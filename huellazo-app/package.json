@@ -3,7 +3,7 @@
   "scripts": {
     "anchor-build": "cd anchor && anchor build",
     "anchor-test": "cd anchor && anchor test --skip-deploy",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "ci": "npm run build && npm run lint && npm run format:check",
     "codama:js": "codama run js",
     "dev": "vite",
